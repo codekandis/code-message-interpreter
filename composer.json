@@ -1,0 +1,57 @@
+{
+	"name": "codekandis/code-message-interpreter",
+	"description": "This library interprets codes into messages based on abstract enumerators.",
+	"keywords": [
+		"php",
+		"code to message interpreter",
+		"code",
+		"codes",
+		"message",
+		"messages",
+		"interpreter"
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Ramelow",
+			"email": "info@codekandis.net",
+			"homepage": "https://codekandis.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@codekandis.net",
+		"issues": "https://github.com/codekandis/code-message-interpreter/issues",
+		"docs": "https://github.com/codekandis/code-message-interpreter/blob/master/README.md",
+		"source": "https://github.com/codekandis/code-message-interpreter/tree/master"
+	},
+	"require": {
+		"php": "^7.3"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"sensiolabs/security-checker": "^6",
+		"phpunit/phpunit": "^8"
+	},
+	"autoload": {
+		"psr-4": {
+			"CodeKandis\\CodeMessageInterpreter\\": [
+				"src/"
+			]
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CodeKandis\\CodeMessageInterpreter\\Tests\\": [
+				"tests/"
+			]
+		}
+	},
+	"scripts": {
+		"post-update-cmd": [
+			"vendor/bin/security-checker security:check composer.lock"
+		]
+	}
+}
