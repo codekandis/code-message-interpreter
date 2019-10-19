@@ -9,6 +9,7 @@
 	cacheResult="false">
 	<testsuites>
 		<testsuite name="codekandis/code-message-interpreter">
+			<directory suffix="Test.php">../tests/UnitTests</directory>
 		</testsuite>
 	</testsuites>
 	<filter>
