@@ -5,6 +5,8 @@
 [![Minimum PHP Version][xtlink-php-version-badge]][xtlink-php-net]
 ![Code Coverage][xtlink-code-coverage-badge]
 
+> **_NOTE:_** This package is abandoned and no longer maintained. It has been superseded by the package [`codekandis/constants-classes-translator`][xtlink-codekandis-constants-classes-translator].
+
 With the [`CodeMessageInterpreter`][srclink-code-message-interpreter] you are able to translate codes into readable messages. E. g. is useful with third party libraries throwing exceptions with error codes but without meaningful messages.
 
 ## Index
@@ -64,6 +66,7 @@ The [`CodeMessageInterpreter`][srclink-code-message-interpreter] throws an [`Cod
 [xtlink-php-version-badge]: https://img.shields.io/badge/php-%3E%3D%207.3-8892BF.svg
 [xtlink-code-coverage-badge]: https://img.shields.io/badge/coverage-100%25-green.svg
 [xtlink-php-net]: https://php.net
+[xtlink-codekandis-constants-classes-translator]: https://github.com/codekandis/constants-classes-translator
 
 [srclink-changelog]: ./CHANGELOG.md
 [srclink-license]: ./LICENSE
